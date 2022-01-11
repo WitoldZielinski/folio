@@ -1,0 +1,29 @@
+/* ***************NAVBAR***************** */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.logo-img {
+  margin: 0.5rem;
+  height: 3rem;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  border-bottom: 0.19rem solid #f8f9fa;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-bottom: 0.19rem solid rgb(37, 37, 37);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.19rem solid rgb(37, 37, 37);
+}
